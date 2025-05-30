@@ -49,7 +49,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    @foreach ($employees as)
+                                    @foreach ($employees as $items)
                                     <tr> 
                                         <td class="">{{$items->id}}</td>
                                         <td>{{$items->fname}}</td>
